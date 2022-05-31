@@ -1,6 +1,6 @@
 # Dmitry Dudnichenko
 
-  ### Junior Frontend Developer
+  Junior Frontend Developer
 
 
 # Contact 
