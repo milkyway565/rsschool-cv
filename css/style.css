@@ -1,0 +1,203 @@
+main {
+  padding-bottom: 22px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding-top: 25px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__name {
+  padding-top: 15px;
+}
+
+.header__name-info {
+  font-size: 100px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+
+}
+
+
+.header__name-info span {
+  font-size: 100px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  /* border-bottom: 2px solid black; */
+}
+
+
+.header__name-profession {
+  padding-top: 8px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 50px;
+  margin-left: 7px;
+  position: absolute;
+}
+
+.decor {
+  position: relative;
+  content: '';
+  left: 8px;
+  width: 98.7%;
+  height: 6px;
+  background-color: #ebebeb;
+}
+
+.header__img {
+  max-width: 400px;
+  height: 315px;
+}
+
+
+.info__contact {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin-top: 16px;
+  /* padding: 50px; */
+}
+
+.info__contact-tel,
+.info__contact-mail,
+.info__contact-address {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  padding: 20px;
+}
+
+.info__contact-t,
+.info__contact-m,
+.info__contact-a {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 29px;
+  margin-top: 29px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.main {
+  display: flex;
+}
+
+
+.skills__skills-items,
+.skills__language-items {
+  margin-left: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+.info__profile-text,
+.info__experience-text,
+.info__reference-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.skills__education-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  margin-bottom: 14px;
+
+}
+
+.skills__language-item {
+  font-family: 'Roboto';
+}
+
+.footer__link,
+.footer__year {
+  color: black;
+  font-family: 'Roboto';
+}
+
+.footer__logo {
+  width: 50px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.footer {
+  background-color: #ebebeb;
+}
+
+
+.nav__link {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+
+.nav__link-item {
+  color: black;
+  font-family: 'Montserrat';
+  font-weight: 500;
+
+}
+
+
+
+/* <div class="info__contact">
+
+              <div class="info__contact-tel">
+                <p class="info__contact-t">
+                  Phone
+                </p>
+                <span class="info__contact-n"><a href="tel:+380935689018">+380935689018</a></span>
+              </div>
+
+              <div class="info__contact-mail">
+                <p class="info__contact-m">
+                  Email
+                </p>
+                <span class="info__contact-ms"> <a
+                    href="mailto:filky_way@protonmail.com">filky_way@protonmail.com</a></span>
+              </div>
+
+              <div class="info__contact-address">
+                <p class="info__contact-a">
+                  Telegram
+                </p>
+                <span class="info__contact-adr"> <a href="https://t.me/DmitryDV1">https://t.me/DmitryDV1</a></span>
+              </div>
+
+            </div> */
