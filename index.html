@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="navigation">
+        <nav class="nav">
+          <ul class="nav__link">
+            <li class="nav__link-items"> <a class="nav__link-item" href="#contact">Contact</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#aboutme">About me</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#experience">Experience</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#reference">Reference</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#education">Education</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#mycode">My code</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#language">Language</a></li>
+            <li class="nav__link-items"> <a class="nav__link-item" href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__inner">
+
+
+
+        <div class="header__name">
+          <h1 class="header__name-info">
+            Dmitry <span>Dudnichenko</span>
+          </h1>
+          <div class="decor"></div>
+          <p class="header__name-profession">
+            Junior Frontend Developer
+          </p>
+        </div>
+        <img class="header__img" src="images/images.jpg" alt="foto author">
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+
+      <section class="info">
+        <div class="container">
+          <div class="info__inner">
+            <h2 class="info__profile-title title" id="contact">
+              Contact
+            </h2>
+            <div class="info__contact">
+
+              <div class="info__contact-tel">
+                <p class="info__contact-t">
+                  Phone
+                </p>
+                <span class="info__contact-n"><a href="tel:+380935689018">+380935689018</a></span>
+              </div>
+
+              <div class="info__contact-mail">
+                <p class="info__contact-m">
+                  Email
+                </p>
+                <span class="info__contact-ms"> <a
+                    href="mailto:filky_way@protonmail.com">filky_way@protonmail.com</a></span>
+              </div>
+
+              <div class="info__contact-address">
+                <p class="info__contact-a">
+                  Telegram
+                </p>
+                <span class="info__contact-adr"> <a href="https://t.me/DmitryDV1">https://t.me/DmitryDV1</a></span>
+              </div>
+
+            </div>
+
+
+            <div class="info__profile" id="aboutme">
+              <h2 class="info__profile-title title">
+                About me
+              </h2>
+              <p class="info__profile-text">
+                Hello everyone, my name is Dima, and I'm studying to be a front-end developer) I just recently started
+                to study this
+                profession and the IT sphere, the place in which I want to grow as a professional. At the moment I'm
+                studying at the RS school to get good knowledge and in the future I will get a job as a developer in
+                some good company.
+              </p>
+            </div>
+
+            <div class="info__experience" id="experience">
+              <h2 class="info__experience-title title">
+                Experience
+              </h2>
+              <p class="info__experience-text">
+                I have little experience in website layout, I also practiced with the work of forum engines,
+                specifically xenforo
+              </p>
+            </div>
+
+            <div class="info__reference" id="reference">
+              <h2 class="info__reference-title  title">
+                Reference
+              </h2>
+              <p class="info__reference-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eum deleniti nemo hic incidunt qui,
+                aspernatur enim
+                odio amet, est saepe nobis assumenda molestias nostrum adipisci iure. Earum, consectetur tenetur?
+              </p>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+      <section class="skills">
+
+        <div class="container">
+          <div class="skills__inner">
+
+
+            <div class="skills__education" id="education">
+              <h2 class="skills__education-title title">
+                Education
+              </h2>
+              <p class="skills__education-text">
+                1) From0to1. Courses from Vadim Prokopchuk about layout of sites. (HTML5,CSS3) (2021-2022) <br>
+
+
+              </p>
+              <p class="skills__education-text">
+                2) RSS School. Pre-school JS/FE (2022)
+              </p>
+            </div>
+
+            <div class="skills__code" id="mycode">
+
+              <h2 class="skills__code-title title">
+                My code (from my project)
+              </h2>
+
+              <div class="skills__code">
+              
+              <pre> $(function () {
+              
+              $(window).scroll(function () {
+              
+              if ($(this).scrollTop() != 0) {
+              
+              $('#toTop').fadeIn();
+              
+              } else {
+              
+              $('#toTop').fadeOut();
+              
+              }
+              
+              });
+              
+              $('#toTop').click(function () {
+              
+              $('body,html').animate({ scrollTop: 0 }, 800);
+              
+              });
+              
+              
+              $('.menu__btn, .menu a').on('click', function () {
+              $('.header__top-inner').toggleClass('header__top-inner--active');
+              
+              });
+              
+              });
+            </pre>
+            </div>
+            </div>
+
+            <div class="skills__language" id="language">
+              <h2 class="skills__language-title title">
+                Language
+              </h2>
+
+              <div class="skills__language-link">
+                <ul class="skills__language-items">
+                  <li class="skills__language-item">English (A-1, A-2)</li>
+                  <li class="skills__language-item">Russian (native)</li>
+                  <li class="skills__language-item">Ukranian (very good)</li>
+                </ul>
+              </div>
+
+
+            </div>
+
+            <div class="skills__skills" id="skills">
+              <h2 class="skills__skills-title title">
+                Skills
+              </h2>
+              <div class="skills__skills-link">
+                <ul class="skills__skills-items">
+                  <li class="skills__skills-item">HTML5</li>
+                  <li class="skills__skills-item">CSS3</li>
+                  <li class="skills__skills-item">SCSS</li>
+                  <li class="skills__skills-item">BEM</li>
+                  <li class="skills__skills-item">GIT</li>
+                </ul>
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+    </div>
+  </main>
+  <footer class="footer">
+
+    <div class="container">
+      <div class="footer__inner">
+        <a target="_blank" class="footer__link" href="https://github.com/milkyway565">
+          MY GitHub
+        </a>
+
+        <p class="footer__year">
+          2022-2023
+        </p>
+        <a target="_blank" href="https://rs.school/js/">
+          <img class="footer__logo" src="images/icon/rs_school_js.svg" alt="logo">
+        </a>
+
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
